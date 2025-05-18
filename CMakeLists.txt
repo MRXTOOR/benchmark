@@ -1,7 +1,7 @@
 # Standard routine
 cmake_minimum_required(VERSION 3.16)
-project(example_app
-        VERSION 0.0.10 # CI_PROJECT_VERSION
+project(benchmark
+        VERSION 0.0.1 # CI_PROJECT_VERSION
     )
 
 option(BUILD_SHARED_LIBS "Build shared libs" OFF)
@@ -37,7 +37,7 @@ aui_enable_tests(${PROJECT_NAME})
 
 # Setup icon, display name, etc
 aui_app(TARGET ${PROJECT_NAME}
-        NAME "AUI App Example"
-        VENDOR "AUI Project"
+        NAME "benchmark"
+        VENDOR "qeez4"
         ICON "assets/img/icon.svg"
 )

